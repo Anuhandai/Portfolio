@@ -3,21 +3,34 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <title>Anuka Portfolio</title>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="Anuka Logo"/></a>
+      <div class="logo-container">
+        <a href="index.html"><img src="images/logo.png" alt="Anuka-Logo" class = "logo"/></a>
       </div>
 
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-          <a href="#">Work</a>
-          <a href="#">Resume</a>
+          <a href="index.html#cs" onclick="closeNav()">Work</a>
+          <a href="#" onclick="closeNav()">Resume</a>
+
+          <h1 class = "small-title">Get in touch, I love connecting with new people!</h1>
+
+          <div class = "contact">
+            <img src = "images/github.png"/>
+            <img src = "images/linkedin.png"/>
+            <img src = "images/email.png"/>
+          </div>
+  
+          <footer>
+            <p> © 2020 designed and built by Anuka Mendbayar</p>
+          </footer>
         </div>
       </div>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      <span onclick="openNav()" class = "burger-icon">&#9776; </span>
     </header>
 
 
@@ -47,9 +60,10 @@
     <div class ="container">
       <main class="case-studies">
         <section class="cs" id="cs">
-          <h1 class = "title">My work</h1>
+          <div class = "my-work">
+            <h1 class = "title my-work">My work</h1>
 
-          <div class = "project-row">
+            <div class = "project-row">
               <img src = "images/Wale screen.png"/>
 
               <div class = "project-text-container">
@@ -60,13 +74,13 @@
                   <p>Wale is a cloud storage application designed to be everyone’s virtual closet. This app allows you easily create outfits and get your friends’ opinions on your purchase or outfit choice. </p>
                 </div>
                 <div class = "view-case-study">
-                  <p>VIEW CASE STUDY</p>
+                  <p><a href = "wale.html">VIEW CASE STUDY</a></p>
                 </div>
               </div>
-          </div>
+            </div>
 
 
-          <div class = "project-row">
+            <div class = "project-row reverse">
             <div class = "project-text-container">
               <div class = "project-text">
                 <h3>Wale</h3>
@@ -80,8 +94,8 @@
             </div>
 
             <img src = "images/Wale screen.png"/>
+            </div>
           </div>
-
           <h1 class = "title">My Skills</h1>
 
           <div class = "skills-big-container">
@@ -161,8 +175,9 @@
           <h1 class = "title">About Me</h1>
 
           <div class = "about-me">
-            <p>I am a UX/UI Designer with a background in customer service and psychology. I studied psychology because of my strong desire to understand the human brain, behavior, and feelings. While studying, I also worked in sales for 5+ years to support myself and learned just how deeply I enjoy utilizing a strong empathy for others by tending to their needs. 
+            <p>I am a UX/UI Designer with a background in customer service and psychology. I studied psychology because of my strong desire to understand the human brain, behavior, and feelings. While studying, I also worked in sales for 5+ years to support myself and learned just how deeply I enjoy utilizing a strong empathy for others by tending to their needs. <br/><br/>
               <b>Why did I transition to user experience? </b>
+              <br/><br/>
               For a long time, I wasn’t sure how to be creative, empathetic, and helpful to others in my career. Yet, I have always enjoyed learning about people and technology, and so I knew I wanted to build something on this. 
               I’ve always appreciated products that are designed to be efficient and straightforward. From this, I recognized that UX Design could be the perfect intersection of my two passions. 
               Today, I work to create better experiences for people. I design to improve others' lives through thoughtfully made products. And I aim to make decisions that add delight to the everyday.

@@ -2,55 +2,53 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Anuka Portfolio</title>
 </head>
 <body>
-  <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="#">Work</a>
-      <a href="#">Resume</a>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-    </div>
-  </div>
-  
-  <!--Footer-->
-  <div class="container">
-    <div class=footer-cta">
 
-      <h1>Get in touch, I love connecting with new people!</h1>
-      <div class="social-media-icons">
-        <ul class="icons">
-          <li>
-            <a href="https://www.linkedin.com/in/anuka/" target="_blank">
-              <img src="images/linkedin.png" alt="social media icons" class="social-media-icons"></a>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/anuhandai" target="_blank">
-              <img src="images/github.png" alt="social media icons" class="social-media-icons"></a>
-            </li>
-            <li>
-              <a href="contact.html" target="_blank">
-                <img src="images/email.png" alt="social media icons" class="social-media-icons"></a>
-              </a>
-            </li>
-          </ul>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img src="images/logo.png" alt="Anuka-Logo" class = "logo"/></a>
+    </div>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html#cs" onclick="closeNav()">Work</a>
+        <a href="#" onclick="closeNav()">Resume</a>
+
+        <h1 class = "small-title">Get in touch, I love connecting with new people!</h1>
+
+        <div class = "contact">
+          <img src = "images/github.png"/>
+          <img src = "images/linkedin.png"/>
+          <img src = "images/email.png"/>
         </div>
 
-        <p>© 2020 Designed and Built by Anuka Mendbayar</p>
-
+        <footer>
+          <p> © 2020 designed and built by Anuka Mendbayar</p>
+        </footer>
       </div>
+    </div>
+    <span onclick="openNav()" class = "burger-icon">&#9776; </span>
+  </header>
 
-    </footer>
-    <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-      }
 
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
-    </script>
+
+
+  <h1 class = "small-title">Get in touch, I love connecting with new people!</h1>
+
+  <div class = "contact">
+    <img src = "images/github.png"/>
+    <img src = "images/linkedin.png"/>
+    <img src = "images/email.png"/>
+  </div>
+
+  <footer>
+    <p> © 2020 designed and built by Anuka Mendbayar</p>
+  </footer>
+  <script src = "app.js"></script>
   </body>
   </html>

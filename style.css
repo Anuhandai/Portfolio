@@ -12,6 +12,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: 32344C
 }
 
 header> .logo-container{
@@ -42,7 +43,7 @@ header > span{
   width: 50%;
   font-size: 36px;
   margin-left: 150px;
-  margin-top: 200px;
+  margin-top: 370px;
 }
 
 .bounce{
@@ -397,7 +398,7 @@ footer{
    font-size: 66px;
    font-weight: 400;
   }
-  
+
   .project-text>p{
     margin-top: 60px;
     font-size: 44px;

@@ -555,7 +555,7 @@ h2{
 }
 
 .overview-full{
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: flex;
 }
@@ -594,7 +594,7 @@ h2{
 }
 
 .ur-callout{
-  width: 80%;
+  width: 60%;
   margin: auto;
   line-height: 150%;
 }
@@ -632,7 +632,7 @@ h2{
 }
 
 .comp-ana-text{
-  width: 80%;
+  width: 60%;
   margin: auto;
   line-height: 150%;
 }
@@ -655,7 +655,7 @@ h2{
 }
 
 .personas{
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -683,7 +683,7 @@ h2{
 }
 
 .persona-row{
-  width: 80%;
+  width: 60%;
   margin:auto;
   display: flex;
   justify-content: space-between;
@@ -705,7 +705,7 @@ h2{
 
 .persona-top>div>ol{
   line-height: 150%;
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -720,12 +720,12 @@ h2{
 }
 
 .anchor>p{
-  width: 80%;
+  width: 60%;
   margin: auto;
   line-height: 150%;
 }
 
-.product-featuress{
+.product-features{
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -741,5 +741,6 @@ h2{
 }
 
 .conc{
+  width: 60%;
   line-height: 150%;
 }

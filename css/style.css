@@ -249,7 +249,7 @@ header > span{
   font-weight: bold;
 }
 .testimonials .btn:hover{
-  background-color: rgba(95, 106, 117, 0.5);
+  background-color: #F3DBD7;
   cursor: pointer;
 }
 .testimonials .btn.next {

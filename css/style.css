@@ -510,6 +510,51 @@ h2{
     transition: 0.3s;
     margin-bottom: 40px;
   }
+
+  /*Project 1*/
+  .Project1{
+    width: 100%;
+  }
+  .wale-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav{
+    visibility: hidden;
+  }
+
+  .overview-full{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overview{
+    margin-bottom: 20px;
+  }
+
+  .row{
+    flex-direction: column;
+  }
+
+  .row-one{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .personas{
+    flex-direction: column;
+  }
+
+  .persona{
+    margin-bottom: 20px;
+  }
+
+  .product-features{
+    flex-direction: column;
+  }
 }
 
 /*Start of project 1*/

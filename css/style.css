@@ -29,7 +29,7 @@ header > span{
   background-image: url("../images/lavender.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ header > span{
   width: 50%;
   font-size: 36px;
   margin-left: 150px;
-  margin-top: 300px;
+  margin-top: 230px;
   font-family: 'Roboto Slab';
   color: #4A3175;
   line-height: 150%;
@@ -131,8 +131,14 @@ header > span{
 
 .view-case-study:hover{
   cursor: pointer;
+  transition: 0.1s;
+  background-color: #deebff;
+  transform: : scale(1.1);
+  color: #deebff;
 }
-
+.view-case-study > a:hover{
+  color: #deebff;
+}
 .view-case-study > p{
   color: white;
   font-size: 22px;

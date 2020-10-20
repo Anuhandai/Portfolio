@@ -38,13 +38,12 @@ header > span{
 .hero-tagline{
   width: 50%;
   font-size: 36px;
-  margin-left: 150px;
+  margin-left: 120px;
   margin-top: 230px;
   font-family: 'Roboto Slab';
   color: #4A3175;
   line-height: 150%;
 }
-
 
 .bounce{
   display: flex;
@@ -92,7 +91,7 @@ header > span{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
+  padding-left: 150px;
 }
 
 .project-text > h3{
@@ -122,6 +121,7 @@ header > span{
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+  margin-left: 150px;
 }
 
 .view-case-study a{
@@ -132,24 +132,27 @@ header > span{
 .view-case-study:hover{
   cursor: pointer;
   transition: 0.1s;
-  background-color: #deebff;
+  background-color: #89ABE3;
   transform: : scale(1.1);
-  color: #deebff;
+  color: #89ABE3;
 }
+
 .view-case-study > a:hover{
-  color: #deebff;
+  color: #89ABE3;
 }
+
 .view-case-study > p{
   color: white;
   font-size: 22px;
 }
+
 .skills-big-container{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .skills-container{
-  width: 60%;
+  width: 70%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -169,12 +172,12 @@ header > span{
   margin-right: 40px;
   margin-top: 40px;
 }
+
 .skill-text > h4{
   margin-bottom: 20px;
   line-height: 150%;
 
 }
-
 
 .about-me{
   width: 70%;
@@ -266,10 +269,10 @@ header > span{
 }
 @media screen and (max-width: 480px) {
   .item {
-      padding: 0 30px;
+    padding: 0 30px;
   }
   .card {
-      padding: 80px 30px 30px;
+    padding: 80px 30px 30px;
   }
 }
 
@@ -346,9 +349,9 @@ h2{
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
 
@@ -415,9 +418,9 @@ h2{
   }
 
   .project-text > h4{
-   font-size: 50px;
-   font-weight: 400;
-   text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
   }
 
   .project-text>p{

@@ -156,7 +156,6 @@ header > span{
 
 .skills-big-container{
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .skills-container{
@@ -382,7 +381,7 @@ h2{
   .hero{
     background-image: url("../images/lavender.png");
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     margin-bottom: 200px;
     font-family: 'Roboto Slab';
   }
@@ -391,12 +390,13 @@ h2{
     width: 60%;
     font-size: 60px;
     margin-left: 150px;
-    margin-top: 560px;
+    margin-top: 500px;
     line-height: 100px;
+    font-size: 'Roboto Slab'
   }
 
   .title{
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 600;
   }
 
@@ -421,20 +421,20 @@ h2{
 
   .project-text > h3{
     margin-bottom: 50px;
-    font-size: 88px;
+    font-size: 3.2em;
     font-weight: 400;
     padding: 70px;
   }
 
   .project-text > h4{
-    font-size: 50px;
+    font-size: 2em;
     font-weight: 400;
-    text-align: center;
+    margin-left: 70px;
   }
 
   .project-text>p{
     margin-top: 60px;
-    font-size: 44px;
+    font-size: 1.8em;
     line-height: 80px;
     padding: 70px;
   }
@@ -469,17 +469,18 @@ h2{
   }
 
   .skill-text>h4{
-    font-size: 66px;
+    font-size: 36px;
   }
 
   .skill-text>p{
-    font-size: 44px;
+    font-size: 1.8em;
     line-height: 150%;
   }
 
   .skill-image >img{
     width: 200px;
-    margin-top: 90px;
+    margin-top: 0px;
+    margin-right: 20px;
   }
 
   .about-me{
@@ -490,7 +491,7 @@ h2{
   }
 
   .about-me>p{
-    font-size: 44px;
+    font-size: 1.8em;
     margin: auto;
     width: 65%;
     line-height: 150%;

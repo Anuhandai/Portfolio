@@ -380,10 +380,11 @@ h2{
   }
 
   .hero{
-    background-image: url("../images/lavender.jpg");
+    background-image: url("../images/lavender.png");
     background-repeat: no-repeat;
     height: 100vh;
     margin-bottom: 200px;
+    font-family: 'Roboto Slab';
   }
 
   .hero-tagline{

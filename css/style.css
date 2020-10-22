@@ -198,12 +198,11 @@ header > span{
   font-size: 1.2em;
   margin-top: 20px;
   width: 60%;
-  line-height: 150%;
 }
 
 .about-me > img{
   width: 40%;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .testimonials {
@@ -494,7 +493,6 @@ h2{
     font-size: 1.8em;
     margin: auto;
     width: 65%;
-    line-height: 150%;
   }
 
   .about-me>img{

@@ -61,7 +61,7 @@ header > span{
 .title{
   text-align: center;
   font-size: 42px;
-  margin: 50px 0;
+  margin: 40px 40px;
   font-family: 'Roboto Slab';
   color: #32344C;
   margin-top: 100px;
@@ -195,9 +195,9 @@ header > span{
 }
 
 .about-me > p{
-  font-size: 20px;
-  margin-top: 40px;
-  width: 40%;
+  font-size: 1.2em;
+  margin-top: 20px;
+  width: 60%;
   line-height: 150%;
 }
 
@@ -381,7 +381,7 @@ h2{
   .hero{
     background-image: url("../images/lavender.png");
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 200px;
     font-family: 'Roboto Slab';
   }

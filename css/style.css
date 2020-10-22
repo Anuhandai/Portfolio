@@ -197,7 +197,9 @@ header > span{
 .about-me > p{
   font-size: 1.2em;
   margin-top: 20px;
-  width: 45%;
+  width: 50%;
+  line-height: 30px;
+  padding-right: 150px;
 }
 
 .about-me > img{
@@ -491,7 +493,8 @@ h2{
   .about-me>p{
     font-size: 1.8em;
     margin: auto;
-    width: 65%;
+    width: 50%;
+    line-height: 80px;
   }
 
   .about-me>img{

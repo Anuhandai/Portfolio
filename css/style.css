@@ -381,16 +381,16 @@ h2{
   .hero{
     background-image: url("../images/lavender.png");
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 70vh;
     margin-bottom: 200px;
     font-family: 'Roboto Slab';
   }
 
   .hero-tagline{
-    width: 60%;
-    font-size: 60px;
+    width: 40%;
+    font-size: 50px;
     margin-left: 150px;
-    margin-top: 500px;
+    margin-top: 250px;
     line-height: 100px;
     font-size: 'Roboto Slab'
   }

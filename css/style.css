@@ -28,8 +28,12 @@ header > span{
   color: #695973;
 }
 
+.logo {
+  height: 50px;
+}
+
 .hero{
-  background-image: url("../images/lavender.jpg");
+  background-image: url("../images/lavender pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -76,7 +80,6 @@ header > span{
 }
 
 .my-work{
-  background-image: url("../images/casestudypic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 10px;
@@ -111,6 +114,12 @@ header > span{
   line-height: 150%;
   width: 60%;
 }
+
+.project-row.reverse {
+  background-color: #F5F4F9;
+  width: 100%;
+}
+
 
 .project-text-container{
   width: 80%;
@@ -179,6 +188,11 @@ header > span{
   margin-top: 40px;
 }
 
+.skill-image img{
+  height: 80px;
+  width: 80px;
+}
+
 .skill-text > h4{
   margin-bottom: 20px;
   line-height: 150%;
@@ -229,6 +243,10 @@ header > span{
   background-size: cover;
 }
 
+.contact img {
+  height: 40px;
+  width: 40px;
+}
 .card {
   padding: 80px 40px 40px;
   z-index: 1;
@@ -249,6 +267,7 @@ header > span{
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
 .testimonials .btn {
   position: absolute;
   top: 50%;
@@ -369,7 +388,7 @@ h2{
 @media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
   /* Styles */
   .logo{
-    width: 200px;
+    height: 100px;
     margin-top: 60px;
   }
 
@@ -477,7 +496,8 @@ h2{
   }
 
   .skill-image >img{
-    width: 200px;
+    width: 120px;
+    height: 120px;
     margin-top: 0px;
     margin-right: 20px;
   }
@@ -511,8 +531,8 @@ h2{
     padding: 0 40px;
   }
 
-  .contact > img{
-    width: 100px;
+  .contact>img{
+    height: 40px;
   }
 
   footer > p{

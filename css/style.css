@@ -46,7 +46,7 @@ header > span{
 
 .hero-tagline{
   width: 50%;
-  font-size: 36px;
+  font-size: 32px;
   margin-left: 120px;
   margin-top: 230px;
   font-family: 'Roboto Slab';
@@ -406,7 +406,7 @@ h2{
 
   .hero-tagline{
     width: 40%;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 150px;
     margin-top: 250px;
     line-height: 100px;

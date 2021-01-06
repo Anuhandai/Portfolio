@@ -771,6 +771,11 @@ h2{
   align-items: center;
 }
 
+.persona-top >img{
+  height: auto;
+  width: 350px;
+}
+
 .persona-name{
   text-align: center;
   font-size: 36px !important;
